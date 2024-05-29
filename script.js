@@ -1,5 +1,4 @@
-// Check if promo code is used
-let promoUsed = localStorage.getItem("promoUsed") === "true";
+
 
 // Check if bitcoin count is available in local storage
 let bitcoinCount = parseFloat(localStorage.getItem("bitcoinCount")) || 0;
