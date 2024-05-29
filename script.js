@@ -39,6 +39,9 @@ function applyPromoCode() {
             case "H8678-12HJDF-7777":
                 bitcoinCount += 1488;
                 break;
+            case "spacex":
+                bitcoinCount += 1488;
+                break;
             default:
                 break;
         }
