@@ -1,0 +1,68 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.window {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.bitcoin-section {
+    margin-bottom: 20px;
+}
+
+#bitcoinCounter {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#bitcoinButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#bitcoinButton img {
+    width: 100px;
+    height: 100px;
+}
+
+.promo-section {
+    margin-bottom: 20px;
+}
+
+#promoInput {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#applyPromoButton {
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
